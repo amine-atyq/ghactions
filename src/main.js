@@ -3,3 +3,8 @@ function hello() {
 }
 
 module.exports = hello;
+function add(a, b) {
+    return a + b;
+}
+
+module.exports = add;
