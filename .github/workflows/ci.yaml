@@ -18,6 +18,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
 
-      - name: Runb tests
+      - name: Run tests
         run: npm test
 
